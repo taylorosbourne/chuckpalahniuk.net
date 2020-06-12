@@ -8,7 +8,6 @@ import { Nav } from '../index';
 export default function Header() {
   let location = useLocation();
 
-  console.log(location)
   return (
     <header style={{ background: `rgb(28,30,36)`, width: `100vw`, display: `flex`, justifyContent: `center`, alignItems: `center`}}>
       <Logo>

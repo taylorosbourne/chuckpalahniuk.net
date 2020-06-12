@@ -5,7 +5,8 @@ import { useLocation } from 'react-router-dom';
 import lookingUp from '../../assets/lookingup.jpeg';
 import tattoo from '../../assets/tattoo.jpg';
 import tattooBanner from '../../assets/tattoobanner.jpeg';
-import { BannerImage } from './about-styles';
+import poem from '../../assets/poem.jpeg';
+import { BannerImage, ChuckQuote } from './about-styles';
 
 export default function About() {
   const [isTattoo, setIsTattoo] = useState(false);
@@ -19,7 +20,10 @@ export default function About() {
         <div 
           // style={{display: `flex`, justifyContent: `space-around`, alignItems: `flex-start`}}
         >
-          <img onClick={() => setIsTattoo(!isTattoo)} src={isTattoo ? tattoo : lookingUp} alt='chuck-palahniuk' style={{borderRadius: `5px`, width: `500px`, float: `right`}} />
+          <div style={{float: `right`, width: `500px`}}>
+            <img onClick={() => setIsTattoo(!isTattoo)} src={isTattoo ? tattoo : lookingUp} alt='chuck-palahniuk' style={{borderRadius: `5px`, width: `500px`, borderRight: `8px solid rgb(105,128,221)`, borderTop: `8px solid rgb(105,128,221)`}} />
+            <caption style={{display: `block`, margin: `15px auto`, fontStyle: `italic`, fontSize: `1.25rem`}}>Photo by <a href="https://allanamato.com/" target='_blank' rel="noopener noreferrer" style={{color: `rgb(105,128,221)`, textDecoration: `none`}}>Allan Amato</a></caption>
+          </div>
           <div style={{width: `50%`}}>
             <h2 style={{fontSize: `2.5rem`, padding: `5px`, borderLeft: `3px solid rgb(105,128,221)`}}>Bio</h2>
             <small style={{color: `rgb(105,128,221)`, fontSize: `1.25rem`}}>written for ChuckPalahniuk.net by Joshua Chaplinsky</small>
@@ -30,7 +34,24 @@ export default function About() {
         </div>
       </section>
       <section style={{ background: `rgb(28,30,36)`, width: `80%`, padding: `22px`, margin: `0 auto` }}>
-        <BannerImage src={tattooBanner} alt='chuck-palahniuk' />
+        <div style={{width: `100%`, position: `relative`}}>
+          <BannerImage src={tattooBanner} alt='chuck-palahniuk' />
+          <ChuckQuote>
+            <p style={{borderTop: `5px solid rgb(28,30,36)`, borderRight: `5px solid rgb(28,30,36)`, padding: `10px`, borderRadius: `5px`}}>
+              “All God does is watch us and kill us when we get boring. We must never, ever be boring.”
+              <cite>― Chuck Palahniuk, Invisible Monsters</cite>
+            </p>
+          </ChuckQuote>
+        </div>
+      </section>
+      <section style={{background: `rgb(28,30,36)`, width: `80%`, padding: `22px`, margin: `0 auto`, display: `flex`, flexDirection: `column` }}>
+        <div style={{width: `80%`, margin: `0 auto`}}>
+        <h2 style={{fontSize: `2.5rem`, padding: `5px`, borderLeft: `3px solid rgb(105,128,221)`}}>Early Life</h2>
+        <p style={{fontSize: `1.25rem`}}>
+          Aside from what's revealed in his writing, not much is known about Palahniuk’s formative years. In 1980 he graduated from Columbia High School in Burbank, winning the award for “Most Wittiest” in the process. Some regard this award as the catalyst for his nascent interest in writing, but according to Chuck, that honor belongs to Mr. Olsen, his fifth grade teacher, who told him:
+        </p>
+        <blockquote style={{ margin: `15px auto`, fontSize: `1.35rem`, textAlign: `center`}}>"Chuck, <span style={{ color: `rgb(105,128,221)`}}>you do this really well</span>. And <span style={{ color: `rgb(105,128,221)`}}>this is much better</span> than setting fires, so <span style={{ color: `rgb(105,128,221)`}}>keep it up</span>."</blockquote>
+        </div>
       </section>
     </>
   );
