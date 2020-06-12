@@ -37,7 +37,6 @@ export const CardContainer = styled.div`
 `;
 
 export const Card = styled.div<{imgUrl: string}>`
-  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
   display: flex;
   flex-direction: column;
   justify-content: center;
