@@ -65,7 +65,7 @@ export const Card = styled.div<{imgUrl: string}>`
   }
 `;
 
-export const Mark = styled.mark<{fontSize: string}>`
+export const Mark = styled.mark<{fontSize: string, mobileFontSize: string}>`
   margin: 5px 25px;
   padding: 10px 22px;
   font-size: ${props => props.fontSize};
@@ -73,6 +73,9 @@ export const Mark = styled.mark<{fontSize: string}>`
   color: #fff;
   border-left: 8px solid rgb(105,128,221);
   background: rgba(28,30,36,0.75);
+  @media(max-width: 900px) {
+    font-size: ${props => props.mobileFontSize};
+  }
 `;
 
 export const BannerHeader = styled.header`

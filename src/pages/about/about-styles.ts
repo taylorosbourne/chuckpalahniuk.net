@@ -17,6 +17,14 @@ export const Section = styled.section<{top: boolean, bottom: boolean, imgBreak: 
   div p {
     font-size: 1.35rem;
   }
+  @media(max-width: 800px) {
+  div {
+      min-width: 90%;
+  }
+  }
+  @media(max-width: 800px) {
+    padding: 10px 0px;
+  }
 `;
 
 export const BioContainer = styled.div`
@@ -67,6 +75,9 @@ export const BannerImage = styled.img`
   &:hover {
     filter: grayscale(0%);
   }
+  @media(max-width: 800px) {
+    display: none;
+  }
 `;
 
 export const ChuckQuote = styled.blockquote`
@@ -86,9 +97,17 @@ export const ChuckQuote = styled.blockquote`
     padding: 0;
   }
   cite {
-  display: block;
-  margin-top: 1.65rem;
-  font-size: 1rem;
-  text-align: right;
-}
+    display: block;
+    margin-top: 1.65rem;
+    font-size: 1rem;
+    text-align: right;
+  }
+  @media(max-width: 800px) {
+    position: relative;
+    margin: 0 auto;
+    top: 0;
+    right: 0;
+    opacity: 1;
+    font-size: 0.75rem;
+  }
 `;
