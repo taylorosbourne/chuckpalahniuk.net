@@ -9,6 +9,7 @@ export const Navbar = styled.nav`
     justify-self: end;
     font-size: 2rem;
     background: rgb(28,30,36);
+    transform: scale(0.88);
   } 
 `;
 
@@ -29,7 +30,7 @@ export const StyledLink = styled(Link)<{ currentpage: boolean }>`
   font-weight: 800;
   @media (max-width: 700px) {
     font-size: 1rem;
-    padding: 0.5em 1.5rem;
+    padding: 0.5rem;
   }
   &:hover {
     background: rgb(39,42,50);

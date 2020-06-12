@@ -25,11 +25,20 @@ export const BioContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  div {
+    max-width: 50%;
+  }
   @media(max-width: 1300px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 98%;
+    width: 100%;
+    div {
+      max-width: 90%;
+      img {
+        max-width: 90%;
+      }
+    }
   }
 `;
 

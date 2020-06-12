@@ -1,6 +1,8 @@
+/* eslint-disable no-restricted-globals */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import ScrollToTop from 'react-router-scroll-top';
 import * as serviceWorker from './serviceWorker';
 
 import './App.css'
@@ -11,12 +13,14 @@ import { About } from './pages';
 function App() {
   return (
     <Router>
-      <Layout>
-        <Switch>
-          <Route exact path='/' component={Home} />
-          <Route path='/chuck' component={About} />
-        </Switch>
-      </Layout>
+      <ScrollToTop>
+        <Layout>
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route path='/chuck' component={About} />
+          </Switch>
+        </Layout>
+      </ScrollToTop>
     </Router>
   );
 };
