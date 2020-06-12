@@ -5,15 +5,16 @@ import * as serviceWorker from './serviceWorker';
 
 import './App.css'
 import { Layout } from './containers';
-import About from './pages/about';
+import { Home } from './pages';
+import { About } from './pages';
 
 function App() {
   return (
     <Router>
       <Layout>
         <Switch>
-          <Route exact path='/' render={() => <div>Hello</div>} />
-          <Route path='/' component={About} />
+          <Route exact path='/' component={Home} />
+          <Route path='/chuck' component={About} />
         </Switch>
       </Layout>
     </Router>

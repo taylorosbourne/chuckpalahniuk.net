@@ -9,8 +9,16 @@ export const Logo = styled.div`
     flex-direction: column;
     justify-content: center;
   }
-  h1 {
-    font-size: 2.5rem;
-    font-weight: 300;
+  a#header {
+      color: #fff;
+  }
+  a {
+    text-decoration: none;
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 300;
+      cursor: pointer;
+      padding-bottom: 15px;
+    }
   }
 `;
