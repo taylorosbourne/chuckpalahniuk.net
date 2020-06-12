@@ -7,8 +7,7 @@ import * as serviceWorker from './serviceWorker';
 
 import './App.css'
 import { Layout } from './containers';
-import { Home } from './pages';
-import { About } from './pages';
+import { Home, About, NotFound } from './pages';
 
 function App() {
   return (
@@ -18,6 +17,7 @@ function App() {
           <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/chuck' component={About} />
+            <Route path='/*' component={NotFound} />
           </Switch>
         </Layout>
       </ScrollToTop>

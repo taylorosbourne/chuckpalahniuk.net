@@ -30,6 +30,9 @@ export const CardContainer = styled.div`
       min-width: 88%;
       margin: 10px auto;
     }
+    a {
+      text-align: center;
+    }
   }
 `;
 
@@ -47,6 +50,8 @@ export const Card = styled.div<{imgUrl: string}>`
   width: 32.5%;
   height: 500px;
   a {
+    text-align: center;
+    display: block;
     text-decoration: none;
     border: 0;
     background: rgb(105,128,221);
@@ -63,10 +68,9 @@ export const Card = styled.div<{imgUrl: string}>`
 
 export const Mark = styled.mark<{fontSize: string}>`
   margin: 5px 25px;
-  padding: 0px 22px;
-  font-size: 1.85rem;
+  padding: 10px 22px;
   font-size: ${props => props.fontSize};
-  max-width: 80%;
+  max-width: 60%;
   color: #fff;
   border-left: 8px solid rgb(105,128,221);
   background: rgba(28,30,36,0.75);
