@@ -2,6 +2,7 @@ import React from 'react';
 
 import lookingUp from '../../assets/lookingup.jpeg';
 import tattooBanner from '../../assets/tattoobanner.jpeg';
+import beanieBanner from '../../assets/beanieBanner.jpeg';
 import { Section, BioContainer, BannerContainer, BannerImage, ChuckQuote } from './about-styles';
 
 export default function About() {
@@ -45,17 +46,35 @@ export default function About() {
       </Section>
       <Section top={false} bottom={false} imgBreak={false}>
         <div style={{width: `68%`, margin: `0 auto`}}>
-          <h2 style={{fontSize: `2.5rem`, padding: `5px`, borderLeft: `3px solid rgb(105,128,221)`}}>Writing Career</h2>
+          <h2 style={{fontSize: `2.5rem`, padding: `5px`, borderLeft: `3px solid rgb(105,128,221)`}}>Writing Career - Beginnings</h2>
           <p>In his mid-thirties, Chuck decided to try his hand at writing fiction. A friend suggested he attend a workshop hosted by Tom Spanbauer, minimalist guru behind the art of “Dangerous Writing.” The resulting short story, Negative Reinforcement, appeared in the now defunct literary journal Modern Short Stories in August 1990, and is Chuck’s first known published work. The Love Theme of Sybil and William followed in October.</p>
           <p>Chuck’s first attempt at a novel, If You Lived Here, You’d be Home Already, was also written while attending the workshop. The 700-page monster of a book was Chuck’s attempt at emulating Stephen King, and was rejected across the board (although parts were later recycled for use in Fight Club.) Unfazed, Chuck dabbled with even darker material, writing a manuscript called Manifesto, which would go on to become Invisible Monsters. As with If You Lived Here, agents just couldn't embrace the dark tone in Chuck's work, and while his voice as a writer got some recognition, nobody was willing to take a chance on him.</p>
           <p>That all changed when Chuck "gave up" on the mainstream and decided to make his next manuscript even darker. Written in stolen moments under truck chassis and on park benches to a soundtrack of The Downward Spiral and Pablo Honey, Fight Club came into existence. Within months, Gerry Howard (then editor at WW Norton) convinced the higher-ups to take a chance on the fledgling writer, and Chuck soon had a book deal with a major publisher.  But it wasn't until 20th Century Fox took notice that Chuck nabbed an agent in Edward Hibbert (best known as Gil Chesterton, the food critic on Frasier,) who would go on to broker the deal for Fight Club the movie.</p>
         </div>
       </Section>
-      <Section top={false} bottom={true} imgBreak={false}>
+      <Section top={false} bottom={false} imgBreak={false}>
         <div style={{width: `68%`, margin: `0 auto`}}>
           <h2 style={{fontSize: `2.5rem`, padding: `5px`, borderLeft: `3px solid rgb(105,128,221)`}}>Fight Club Film</h2>
           <p>Directed by David Fincher, the adaptation of Fight Club was a flop at the box office, but achieved cult status on DVD. The year of its release, the film was Fox’s top selling disc, and critics everywhere finally began to embrace it. The film’s popularity drove sales of the novel, resulting in multiple re-printings over the next few years.</p>
           <p>Due to this success, Chuck was given free reign, creatively. He put out two novels in 1999—religious satire Survivor, and the rewritten Invisible Monsters—and has written almost a book a year since. Choke, published in 2001, became Chuck’s first New York Times bestseller. All of his novels thereafter have had similar success.</p>
+        </div>
+      </Section>
+      <Section top={false} bottom={false} imgBreak={true}>
+        <BannerContainer>
+          <BannerImage src={beanieBanner} alt='chuck-palahniuk' />
+          <ChuckQuote className='quote'>
+            <p style={{borderTop: `5px solid rgb(28,30,36)`, borderRight: `5px solid rgb(28,30,36)`, padding: `10px`, borderRadius: `5px`}}>
+              “We all die. The goal isn't to live forever, the goal is to create something that will.”
+              <cite>― Chuck Palahniuk</cite>
+            </p>
+          </ChuckQuote>
+        </BannerContainer>
+      </Section>
+      <Section top={false} bottom={true} imgBreak={false}>
+        <div style={{width: `68%`, margin: `0 auto`}}>
+          <h2 style={{fontSize: `2.5rem`, padding: `5px`, borderLeft: `3px solid rgb(105,128,221)`}}>Writing Career - Continued</h2>
+          <p>Chuck’s work has always been infused with personal experience, and his next novel, Lullaby, was no exception. Chuck credits writing Lullaby with helping him cope with the tragic death of his father, who was murdered in 1999 by the jealous ex of a woman met through a personal ad. A major theme of the book is power, and Chuck has gone on record as saying it was inspired by sitting in the court room, in judgment of the man who killed his father. That man was found guilty and sentenced to death in 2001.</p>
+          <p>With the trial behind him, Chuck threw himself into his work. 2003 would go down as a banner year, but not many people realize it began with a small literary conference in Edinboro, Pennsylvania. The three-day event gave fans unprecedented access to the author and his work, and was presided over by Chuck himself. The schedule consisted of exclusive readings, Q&As, book signings, dissertations- all devoted to Chuck. Not one to revel in the spotlight, Chuck selflessly used this forum to promote the art of storytelling, and to encourage a generation of young readers to evolve into writers.  The entire affair was thoroughly documented by a crew from ChuckPalahniuk.net in the film, Postcards From the Future: The Chuck Palahniuk Documentary.</p>
         </div>
       </Section>
     </>
