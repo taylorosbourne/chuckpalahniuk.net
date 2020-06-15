@@ -1,8 +1,8 @@
 import React from 'react';
 
-import lookingUp from '../../assets/lookingup.jpeg';
-import tattooBanner from '../../assets/tattoobanner.jpeg';
-import beanieBanner from '../../assets/beanieBanner.jpeg';
+import lookingUp from '../../assets/portraits/lookingup.jpeg';
+import tattooBanner from '../../assets/portraits/tattoobanner.jpeg';
+import beanieBanner from '../../assets/portraits/beanieBanner.jpeg';
 import { Section, BioContainer, BannerContainer, BannerImage, ChuckQuote } from './about-styles';
 
 export default function About() {

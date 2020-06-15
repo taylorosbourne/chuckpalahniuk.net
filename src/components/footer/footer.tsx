@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { ReactComponent as Twitter } from '../../assets/twitter.svg';
-import { ReactComponent as Facebook } from '../../assets/facebook.svg';
-import { ReactComponent as Instagram } from '../../assets/instagram.svg';
+import { ReactComponent as Twitter } from '../../assets/icons/twitter.svg';
+import { ReactComponent as Facebook } from '../../assets/icons/facebook.svg';
+import { ReactComponent as Instagram } from '../../assets/icons/instagram.svg';
 import { StyledFooter, LinkTitle, ListLink, FlexContainer } from './footer-styles';
 
 export default function Footer() {

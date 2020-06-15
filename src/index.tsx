@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
 import './App.css'
 import { Layout } from './containers';
-import { Home, About, NotFound } from './pages';
+import { Home, About, Books, NotFound } from './pages';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
           <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/chuck' component={About} />
+            <Route path='/books' component={Books} />
             <Route path='/*' component={NotFound} />
           </Switch>
         </Layout>

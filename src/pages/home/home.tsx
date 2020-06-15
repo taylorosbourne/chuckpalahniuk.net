@@ -1,8 +1,8 @@
 import React from 'react';
 
-import bannerPortrait from '../../assets/bannerportrait.jpeg';
+import bannerPortrait from '../../assets/portraits/bannerportrait.jpeg';
+import tattoo from '../../assets/portraits/tattoo.jpg';
 import books from '../../assets/books.jpeg';
-import tattoo from '../../assets/tattoo.jpg';
 import shirt from '../../assets/shirt.png';
 import { HeadImageContainer, CardContainer, Card, Mark, BannerHeader } from './home-styles';
 import { Link } from 'react-router-dom';
