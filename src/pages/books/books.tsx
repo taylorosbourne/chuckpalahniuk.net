@@ -46,11 +46,17 @@ export default function Books() {
         }}
       >
         <TabContainer>
-          <Tab isActive={activeTab === 'view all'} onClick={() => setActiveTab('view all')}>View All</Tab>
-          <Tab isActive={activeTab === 'fiction'} onClick={() => setActiveTab('fiction')}>Novels & Story Compilations</Tab>
-          <Tab isActive={activeTab === 'short fiction'} onClick={() => setActiveTab('short fiction')}>Short Fiction</Tab>
-          <Tab isActive={activeTab === 'non-fiction'} onClick={() => setActiveTab('non-fiction')}>Non-Fiction & Essays</Tab>
-          <Tab isActive={activeTab === 'graphic novel'} onClick={() => setActiveTab('graphic novel')}>Graphic Novels</Tab>
+          {['view all', 'fiction', 'short fiction', 'non-fiction', 'graphic novel'].map((tab, i) => {
+            return (
+              <Tab 
+                key={i} 
+                isActive={activeTab === tab} 
+                onClick={() => setActiveTab(tab)}
+              >
+                {tab === 'fiction' ? 'Novels & Story Compilations' : tab}
+              </Tab>    
+            )
+          })}
         </TabContainer>
         <BookCardContainer>
           <BookCard activeTab={activeTab} />
