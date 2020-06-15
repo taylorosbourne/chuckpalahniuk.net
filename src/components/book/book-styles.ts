@@ -13,4 +13,28 @@ export const Button = styled.button`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media(max-width: 600px) {
+    margin: 5px 0px 0px 0px;
+  }
+`;
+
+export const Card = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 46%;
+  margin: 10px 0;
+  @media(max-width: 1100px) {
+    max-width: 98%;
+    flex-direction: column;
+    img  {
+      margin-bottom: 15px;
+    }
+  }
+  @media(max-width: 600px) {
+    img  {
+      max-width: 98%;
+      min-width: 98%;
+    }
+  }
 `;

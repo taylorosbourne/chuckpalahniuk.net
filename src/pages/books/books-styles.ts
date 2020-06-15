@@ -13,6 +13,47 @@ export const Button = styled.button`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: 'Bebas Neue', sans-serif;
+  @media(max-width: 1100px) {
+    margin: 5px 0;
+  }
+`;
+
+export const LatestContainer = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 0 auto;
+  @media(max-width: 1100px) {
+    flex-direction: column;
+    justify-content: center;
+    div {
+      min-width: 98%;
+      max-width: 98%;
+    }
+  }
+  @media(max-width: 600px) {
+    div {
+      flex-direction: column;
+    }
+    img {
+      margin-bottom: 15px;
+      min-width: 98%;
+      max-width: 98%;
+    }
+  }
+`;
+
+export const TabContainer = styled.div`
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  @media(max-width: 1100px) {
+    flex-wrap: wrap;
+  }
 `;
 
 export const Tab = styled.button<{isActive: boolean}>`
@@ -31,5 +72,18 @@ export const Tab = styled.button<{isActive: boolean}>`
     outline: none;
     border-left: 5px solid rgb(105,128,221);
     background: rgb(28,30,36);
+  }
+`;
+
+export const BookCardContainer = styled.div`
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  @media(max-width: 1100px) {
+    flex-direction: column;
+    flex-wrap: nowrap;
   }
 `;

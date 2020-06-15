@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import { BookCard } from '../../components';
-import { Button, Tab } from './books-styles';
+import { Button, LatestContainer, TabContainer, Tab, BookCardContainer } from './books-styles';
 import { ReactComponent as Amazon } from '../../assets/icons/amazon.svg';
 import { ReactComponent as Goodreads } from '../../assets/icons/goodreads.svg';
 import inventionOfSound from '../../assets/inventionofsound.jpeg'
@@ -23,8 +23,8 @@ export default function Books() {
       >
         <div style={{width: `80%`, margin: `0 auto`}}>
           <h2 style={{fontSize: `2.5rem`, padding: `5px`, borderLeft: `3px solid rgb(105,128,221)`}}>Upcoming</h2>
-          <div style={{width: `100%`, display: `flex`, justifyContent: `space-around`, alignItems: `flex-start`, margin: `0 auto`}}>
-            <img src={inventionOfSound} alt='upcoming-novel' />
+          <LatestContainer>
+            <img style={{borderRadius: `5px`}} src={inventionOfSound} alt='upcoming-novel' />
             <div style={{width: `50%`}}>
               <h3 style={{fontSize: `2.25rem`, padding: `5px`, marginTop: 0, borderLeft: `3px solid rgb(105,128,221)`}}>The Invention of Sound</h3>
               <small style={{fontSize: `1rem`, marginTop: `5px`}}>Releasing{" "}<span style={{color: `rgb(105,128,221)`}}>September 8, 2020</span></small>
@@ -34,7 +34,7 @@ export default function Books() {
                 <Button><Goodreads style={{fill: `rgb(105,128,221)`, margin: `0 5px`}} /><span>See on Goodreads</span></Button>
               </div>
             </div>
-          </div>
+          </LatestContainer>
         </div>
       </section>
       <section
@@ -45,16 +45,16 @@ export default function Books() {
           maxWidth: `100vw`
         }}
       >
-        <div style={{width: `80%`, margin: `0 auto`, display: `flex`, justifyContent: `flex-start`, alignItems: `center`}}>
+        <TabContainer>
           <Tab isActive={activeTab === 'view all'} onClick={() => setActiveTab('view all')}>View All</Tab>
           <Tab isActive={activeTab === 'fiction'} onClick={() => setActiveTab('fiction')}>Novels & Story Compilations</Tab>
           <Tab isActive={activeTab === 'short fiction'} onClick={() => setActiveTab('short fiction')}>Short Fiction</Tab>
           <Tab isActive={activeTab === 'non-fiction'} onClick={() => setActiveTab('non-fiction')}>Non-Fiction & Essays</Tab>
           <Tab isActive={activeTab === 'graphic novel'} onClick={() => setActiveTab('graphic novel')}>Graphic Novels</Tab>
-        </div>
-        <div style={{width: `80%`, margin: `0 auto`, display: `flex`, justifyContent: `space-between`, alignItems: `flex-start`, flexWrap: `wrap`}}>
+        </TabContainer>
+        <BookCardContainer>
           <BookCard activeTab={activeTab} />
-        </div>
+        </BookCardContainer>
       </section>
     </>
   );

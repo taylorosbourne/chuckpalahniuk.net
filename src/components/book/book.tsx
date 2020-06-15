@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Book, Props } from './book-types';
 import { bookArr } from './book-constants';
-import { Button } from './book-styles';
+import { Button, Card } from './book-styles';
 import { ReactComponent as Amazon } from '../../assets/icons/amazon.svg';
 import { ReactComponent as Goodreads } from '../../assets/icons/goodreads.svg';
 import { ReactComponent as DarkHorse } from '../../assets/icons/comic.svg';
@@ -27,7 +27,7 @@ export default function BookCard({ activeTab }: Props) {
         const shortened: string = description.slice(0, 390);
 
         return (
-          <div key={i} style={{ display: `flex`, justifyContent: `space-between`, alignItems: `flex-start`, maxWidth: `46%`, margin: `10px 0` }}>
+          <Card key={i}>
             <img style={{ minHeight: `310px`, maxWidth: `200px`, borderRadius: `5px` }} src={img} alt={title + '-image'} />
             <div style={{ marginLeft: `15px` }}>
               <h3 style={{ fontSize: `2.25rem`, padding: `5px`, marginTop: 0, marginBottom: 0, borderLeft: `3px solid rgb(105,128,221)` }}>{title}</h3>
@@ -39,7 +39,7 @@ export default function BookCard({ activeTab }: Props) {
                 <a style={{ textDecoration: `none` }} href={goodreadsLink} target='_blank' rel="noopener noreferrer" ><Button style={{ background: `rgb(28,30,36)` }}><Goodreads style={{ fill: `rgb(105,128,221)`, margin: `0 5px` }} /></Button></a>
               </div>
             </div>
-          </div>
+          </Card>
         )
       })}
     </>
