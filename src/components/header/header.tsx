@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
-import { Logo } from './header-styles';
+import { Logo, CigaretteBurn } from './header-styles';
 import { StyledLink, StyledAnchorLink } from '../nav/nav-styles';
 import { Nav } from '../index';
 
@@ -10,6 +10,7 @@ export default function Header() {
 
   return (
     <header style={{ background: `rgb(28,30,36)`, width: `100vw`, display: `flex`, justifyContent: `center`, alignItems: `center`}}>
+      <CigaretteBurn />
       <Logo>
         <Link to='/' id='header'>
           <h1>The Cult{" "}
