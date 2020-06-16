@@ -80,7 +80,7 @@ export default function BookCard({ activeTab }: Props) {
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										Read More
+										Continue on Goodreads
 									</a>
 								</p>
 								<div
