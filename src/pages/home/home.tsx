@@ -73,7 +73,7 @@ export default function Home() {
 						<Mark fontSize="1.85rem" mobileFontSize="1.5rem">
 							Born February 21, 1962, [Chuck] spent his early childhood living
 							out of a mobile home in Burbank, Washington...{' '}
-							<Link to="/chuck">Read More</Link>
+							<Link to="/chuck">About Chuck</Link>
 						</Mark>
 					</Card>
 					<Card imgUrl={shirt}>
