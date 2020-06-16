@@ -25,6 +25,11 @@ export const LatestContainer = styled.div`
   justify-content: space-around;
   align-items: flex-start;
   margin: 0 auto;
+  img {
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	     -moz-box-shadow: 0 8px 6px -6px black;
+	          box-shadow: 0 8px 6px -6px black;
+  }
   @media(max-width: 1100px) {
     flex-direction: column;
     justify-content: center;

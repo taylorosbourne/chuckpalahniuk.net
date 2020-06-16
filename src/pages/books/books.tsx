@@ -4,7 +4,7 @@ import { BookCard } from '../../components';
 import { Button, LatestContainer, TabContainer, Tab, BookCardContainer } from './books-styles';
 import { ReactComponent as Amazon } from '../../assets/icons/amazon.svg';
 import { ReactComponent as Goodreads } from '../../assets/icons/goodreads.svg';
-import inventionOfSound from '../../assets/inventionofsound.jpeg'
+import inventionOfSound from '../../assets/books/inventionofsound.jpeg'
 
 
 export default function Books() {
@@ -31,7 +31,7 @@ export default function Books() {
               <p style={{fontSize: `2.05rem`}}>His first novel with Grand Central, Palahniuk says The Invention of Sound is about <span style={{fontStyle: `italic`, color: `rgb(105,128,221)`}}>“a foley artist looking for the ultimate scream, and the hideous lengths she’ll go to in order to find it.”</span></p>
               <div style={{display: `flex`, justifyContent: `flex-start`, alignItems: `center`}}>
                 <Button><Amazon style={{fill: `rgb(105,128,221)`, margin: `0 5px 0 0`}} /><span>Purchase on Amazon</span></Button>
-                <Button><Goodreads style={{fill: `rgb(105,128,221)`, margin: `0 5px`}} /><span>See on Goodreads</span></Button>
+                <Button><Goodreads style={{fill: `rgb(105,128,221)`, margin: `0 5px`, maxHeight: `24px`, maxWidth: `24px`, color: `rgb(105,128,221)`}} /><span>See on Goodreads</span></Button>
               </div>
             </div>
           </LatestContainer>

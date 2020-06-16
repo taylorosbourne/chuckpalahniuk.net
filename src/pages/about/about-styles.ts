@@ -54,6 +54,9 @@ export const BannerContainer = styled.div`
   width: 68%;
   margin: 0 auto;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   :hover {
     .quote {
       opacity: 1;
@@ -63,7 +66,7 @@ export const BannerContainer = styled.div`
 `;
 
 export const BannerImage = styled.img`
-  width: 100%;
+  /* width: 100%; */
   border-radius: 5px;
   filter: grayscale(80%);
   transition: 0.8s ease;

@@ -29,10 +29,24 @@ export const ListLink = styled.li`
     color: rgb(105,128,221);
   }
   * {
-    margin: 0 5px;
+    margin: 0 2.5px;
+  }
+  a {
+    padding: 0;
+    img {
+      background: rgb(242,242,242);
+    }
+  }
+  a:hover {
+    * {
+      fill: rgb(105,128,221);
+    }
+    img {
+      background: rgb(105,128,221);
+    }
   }
   *:hover {
-      fill: rgb(105,128,221);
+    fill: rgb(105,128,221);
   }
 `;
 

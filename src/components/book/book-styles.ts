@@ -24,6 +24,11 @@ export const Card = styled.div`
   align-items: flex-start;
   max-width: 46%;
   margin: 10px 0;
+  img {
+    -webkit-box-shadow: 0 8px 6px -6px rgb(28,30,36);
+	     -moz-box-shadow: 0 8px 6px -6px rgb(28,30,36);
+	          box-shadow: 0 8px 6px -6px rgb(28,30,36);
+  }
   @media(max-width: 1100px) {
     max-width: 98%;
     flex-direction: column;
