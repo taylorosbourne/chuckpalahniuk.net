@@ -48,7 +48,7 @@ export default function Books() {
 					<LatestContainer>
 						<picture>
 							<source srcSet={inventionOfSound} type="image/webp" />
-  						<source srcSet={inventionOfSoundPng} type="image/jpeg" />
+							<source srcSet={inventionOfSoundPng} type="image/jpeg" />
 							<img
 								style={{ borderRadius: `5px` }}
 								src={inventionOfSound}
