@@ -2,9 +2,9 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 
 import bannerPortrait from '../../assets/portraits/bannerportrait.webp';
-import tattoo from '../../assets/portraits/tattoo.webp';
-import books from '../../assets/books.webp';
-import shirt from '../../assets/shirt.webp';
+import tattoo from '../../assets/portraits/tattoo.png';
+import books from '../../assets/books.png';
+import shirt from '../../assets/shirt.png';
 import {
 	HeadImageContainer,
 	HeadImage,

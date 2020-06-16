@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 
 import lookingUp from '../../assets/portraits/lookingup.webp';
+import lookingUpPng from '../../assets/portraits/lookingup.png';
 import tattooBanner from '../../assets/portraits/tattoobanner.webp';
 import beanieBanner from '../../assets/portraits/beanieBanner.webp';
 import reading from '../../assets/portraits/reading.webp';
@@ -74,16 +75,20 @@ export default function About() {
 						</p>
 					</div>
 					<div>
-						<img
-							src={lookingUp}
-							alt="chuck-palahniuk"
-							style={{
-								borderRadius: `5px`,
-								width: `500px`,
-								borderRight: `8px solid rgb(105,128,221)`,
-								borderTop: `8px solid rgb(105,128,221)`,
-							}}
-						/>
+						<picture>
+							<source srcSet={lookingUp} type="image/webp" />
+							<source srcSet={lookingUpPng} type="image/png" />
+							<img
+								src={lookingUp}
+								alt="chuck-palahniuk"
+								style={{
+									borderRadius: `5px`,
+									width: `500px`,
+									borderRight: `8px solid rgb(105,128,221)`,
+									borderTop: `8px solid rgb(105,128,221)`,
+								}}
+							/>
+						</picture>
 						<caption
 							style={{
 								display: `block`,
