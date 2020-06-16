@@ -6,6 +6,7 @@ export const StyledFooter = styled.footer`
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
+	color: #fff;
 `;
 
 export const FlexContainer = styled.div`
@@ -14,6 +15,7 @@ export const FlexContainer = styled.div`
 	align-items: flex-start;
 	width: 98%;
 	padding-top: 15px;
+	color: #fff;
 	@media (max-width: 1300px) {
 		flex-direction: column;
 		justify-content: center;
@@ -25,6 +27,7 @@ export const ListLink = styled.li`
 	padding: 5px;
 	font-size: 1.25rem;
 	list-style: none;
+	color: #fff;
 	:hover {
 		color: rgb(105, 128, 221);
 	}
@@ -55,4 +58,5 @@ export const LinkTitle = styled.li`
 	font-size: 1.55rem;
 	list-style: none;
 	border-left: 3px solid rgb(105, 128, 221);
+	color: #fff;
 `;

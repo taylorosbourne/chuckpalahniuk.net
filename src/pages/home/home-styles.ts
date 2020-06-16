@@ -26,6 +26,7 @@ export const CardContainer = styled.div`
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
+	color: #fff;
 	@media (max-width: 1300px) {
 		flex-direction: column;
 		justify-content: center;
@@ -53,6 +54,7 @@ export const Card = styled.div<{ imgUrl: string }>`
 	background-repeat: no-repeat;
 	width: 32.5%;
 	height: 500px;
+	color: #fff;
 	a {
 		text-align: center;
 		display: block;
@@ -92,7 +94,7 @@ export const BannerHeader = styled.header`
 	padding: 10px;
 	background-color: rgb(28, 30, 36);
 	border-right: 8px solid rgb(105, 128, 221);
-	color: white;
+	color: #fff;
 	width: 50%;
 	height: 50px;
 	font-size: 3rem;

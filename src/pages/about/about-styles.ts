@@ -8,7 +8,8 @@ export const Section = styled.section<{
   background: rgb(28,30,36);
   max-width: 100vw;
   padding: 22px;
-  margin: 0 auto;
+	margin: 0 auto;
+	color: #fff;
   ${(props) =>
 		props.top &&
 		css`
@@ -67,6 +68,7 @@ export const BannerContainer = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	color: #fff;
 	:hover {
 		.quote {
 			opacity: 1;
@@ -76,7 +78,6 @@ export const BannerContainer = styled.div`
 `;
 
 export const BannerImage = styled.img`
-	/* width: 100%; */
 	border-radius: 5px;
 	filter: grayscale(80%);
 	transition: 0.8s ease;

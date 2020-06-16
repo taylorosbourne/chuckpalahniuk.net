@@ -2,12 +2,13 @@
 
 body {
   margin: 0;
-  padding: 0; 
+  padding: 0;
   background: rgb(61,65,77);
-  color: white;
+  color: #fff;
   font-family: 'Bebas Neue', sans-serif;
 }
 
 p {
-  line-height: 1.5;
+	line-height: 1.5;
+	color: #fff;
 }
