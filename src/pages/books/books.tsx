@@ -12,6 +12,7 @@ import {
 import { ReactComponent as Amazon } from '../../assets/icons/amazon.svg';
 import { ReactComponent as Goodreads } from '../../assets/icons/goodreads.svg';
 import inventionOfSound from '../../assets/books/inventionofsound.webp';
+import inventionOfSoundPng from '../../assets/books/inventionofsound.png';
 
 export default function Books() {
 	const [activeTab, setActiveTab] = useState('view all');
@@ -45,11 +46,15 @@ export default function Books() {
 						Upcoming
 					</h2>
 					<LatestContainer>
-						<img
-							style={{ borderRadius: `5px` }}
-							src={inventionOfSound}
-							alt="upcoming-novel"
-						/>
+						<picture>
+							<source srcSet={inventionOfSound} type="image/webp" />
+  						<source srcSet={inventionOfSoundPng} type="image/jpeg" />
+							<img
+								style={{ borderRadius: `5px` }}
+								src={inventionOfSound}
+								alt="upcoming-novel"
+							/>
+						</picture>
 						<div style={{ width: `50%` }}>
 							<h3
 								style={{
