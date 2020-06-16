@@ -20,11 +20,11 @@ export const HeadImageContainer = styled.section`
 	}
 `;
 
-export const HeadImage = styled.div<{imgUrl: string}>`
+export const HeadImage = styled.div<{ imgUrl: string }>`
 	animation: 1.5s fadeIn ease-in;
 	width: 100%;
 	height: 80vh;
-	background-image: ${props  => `url('${props.imgUrl}')`};
+	background-image: ${(props) => `url('${props.imgUrl}')`};
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -32,7 +32,7 @@ export const HeadImage = styled.div<{imgUrl: string}>`
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	@media(max-width: 800px) {
+	@media (max-width: 800px) {
 		background-image: none;
 		background-color: rgb(28, 30, 36);
 	}

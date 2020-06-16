@@ -84,13 +84,13 @@ export default function Books() {
 									alignItems: `center`,
 								}}
 							>
-								<Button style={{minHeight: `48px`}}>
+								<Button style={{ minHeight: `48px` }}>
 									<Amazon
 										style={{ fill: `rgb(105,128,221)`, margin: `0 5px 0 0` }}
 									/>
 									<span>Purchase on Amazon</span>
 								</Button>
-								<Button style={{minHeight: `48px`}}>
+								<Button style={{ minHeight: `48px` }}>
 									<Goodreads
 										style={{
 											fill: `rgb(105,128,221)`,
