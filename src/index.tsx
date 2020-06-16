@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ScrollToTop from 'react-router-scroll-top';
-import * as serviceWorker from './serviceWorker';
 
 import './App.css';
 import { Layout } from './containers';
@@ -31,5 +30,3 @@ ReactDOM.render(
 	</React.StrictMode>,
 	document.getElementById('root')
 );
-
-serviceWorker.unregister();
