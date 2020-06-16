@@ -41,6 +41,7 @@ export const Card = styled.div`
 		img {
 			max-width: 98%;
 			min-width: 98%;
+			margin-left: 15px;
 		}
 	}
 `;

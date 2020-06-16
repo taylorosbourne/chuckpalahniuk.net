@@ -35,7 +35,7 @@ export default function Books() {
 					paddingBottom: `54px`,
 				}}
 			>
-				<div style={{ width: `80%`, margin: `0 auto` }}>
+				<div style={{ width: `98%`, margin: `0 auto` }}>
 					<h2
 						style={{
 							fontSize: `2.5rem`,
@@ -83,6 +83,7 @@ export default function Books() {
 								</span>
 							</p>
 							<div
+								className='button-container'
 								style={{
 									display: `flex`,
 									justifyContent: `flex-start`,

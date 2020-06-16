@@ -43,6 +43,9 @@ export const LatestContainer = styled.div`
 		div {
 			flex-direction: column;
 		}
+		div.button-container {
+			flex-direction: row;
+		}
 		img {
 			margin-bottom: 15px;
 			min-width: 98%;
@@ -58,7 +61,11 @@ export const TabContainer = styled.div`
 	justify-content: flex-start;
 	align-items: center;
 	@media (max-width: 1100px) {
-		flex-wrap: wrap;
+		width: 98%;
+	}
+	@media (max-width: 800px) {
+		flex-direction: column;
+		align-items: flex-start;
 	}
 `;
 
@@ -80,6 +87,9 @@ export const Tab = styled.button<{ isActive: boolean }>`
 		border-left: 5px solid rgb(105, 128, 221);
 		background: rgb(28, 30, 36);
 	}
+	@media (max-width: 1100px) {
+		font-size: 1.75rem;
+	}
 `;
 
 export const BookCardContainer = styled.div`
@@ -92,5 +102,10 @@ export const BookCardContainer = styled.div`
 	@media (max-width: 1100px) {
 		flex-direction: column;
 		flex-wrap: nowrap;
+	}
+	@media (max-width: 800px) {
+		flex-direction: column;
+		flex-wrap: nowrap;
+		width: 98%;
 	}
 `;
