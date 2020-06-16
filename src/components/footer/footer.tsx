@@ -28,7 +28,7 @@ export default function Footer() {
 							href="https://twitter.com/chuckpalahniuk"
 							target="_blank"
 							rel="noopener noreferrer"
-							aria-label='img'
+							aria-label="img"
 						>
 							<Twitter style={{ fill: `rgb(242,242,242)` }} />
 						</a>
@@ -36,7 +36,7 @@ export default function Footer() {
 							href="https://www.facebook.com/chuckpalahniuk"
 							target="_blank"
 							rel="noopener noreferrer"
-							aria-label='img'
+							aria-label="img"
 						>
 							<Facebook style={{ fill: `rgb(242,242,242)` }} />
 						</a>
@@ -44,7 +44,7 @@ export default function Footer() {
 							href="https://www.instagram.com/ChuckPalahniuk/"
 							target="_blank"
 							rel="noopener noreferrer"
-							aria-label='img'
+							aria-label="img"
 						>
 							<Instagram style={{ fill: `rgb(242,242,242)` }} />
 						</a>
@@ -52,7 +52,7 @@ export default function Footer() {
 							href="https://www.amazon.com/Chuck-Palahniuk/e/B000APV8ME/ref=dp_byline_cont_ebooks_1"
 							target="_blank"
 							rel="noopener noreferrer"
-							aria-label='img'
+							aria-label="img"
 						>
 							<Amazon style={{ fill: `rgb(242,242,242)` }} />
 						</a>
@@ -60,7 +60,7 @@ export default function Footer() {
 							href="https://www.goodreads.com/author/show/2546.Chuck_Palahniuk"
 							target="_blank"
 							rel="noopener noreferrer"
-							aria-label='img'
+							aria-label="img"
 						>
 							<Goodreads
 								style={{
@@ -74,7 +74,7 @@ export default function Footer() {
 							href="https://www.darkhorse.com/Search/Chuck%20Palahniuk"
 							target="_blank"
 							rel="noopener noreferrer"
-							aria-label='img'
+							aria-label="img"
 						>
 							<img
 								src={darkhorse}
