@@ -7,6 +7,7 @@ import books from '../../assets/books.webp';
 import shirt from '../../assets/shirt.webp';
 import {
 	HeadImageContainer,
+	HeadImage,
 	CardContainer,
 	Card,
 	Mark,
@@ -25,32 +26,18 @@ export default function Home() {
 				/>
 			</Helmet>
 			<HeadImageContainer>
-				<div
-					style={{
-						animation: `1.5s fadeIn ease-in`,
-						width: `100%`,
-						height: `80vh`,
-						backgroundImage: `url('${bannerPortrait}')`,
-						backgroundSize: `cover`,
-						backgroundPosition: `center`,
-						backgroundRepeat: `no-repeat`,
-						display: `flex`,
-						flexDirection: `column`,
-						justifyContent: `center`,
-						alignItems: `flex-start`,
-					}}
-				>
-					<Mark fontSize="4rem" mobileFontSize="2rem">
+				<HeadImage imgUrl={bannerPortrait}>
+					<Mark fontSize="4rem" mobileFontSize="2.75rem">
 						Find out what you're
 					</Mark>
-					<Mark fontSize="4rem" mobileFontSize="2rem">
+					<Mark fontSize="4rem" mobileFontSize="2.75rem">
 						afraid of and go live
 					</Mark>
-					<Mark fontSize="4rem" mobileFontSize="2rem">
+					<Mark fontSize="4rem" mobileFontSize="2.75rem">
 						there.
 					</Mark>
 					<cite>- Chuck Palahniuk</cite>
-				</div>
+				</HeadImage>
 			</HeadImageContainer>
 			<section style={{ margin: `10px auto` }}>
 				<CardContainer>

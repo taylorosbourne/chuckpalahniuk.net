@@ -28,6 +28,7 @@ export const StyledLink = styled(Link)<{ current: boolean }>`
 	cursor: pointer;
 	color: rgb(242, 242, 242);
 	font-weight: 800;
+	min-height: 48px;
 	@media (max-width: 700px) {
 		font-size: 1rem;
 		padding: 0.5rem;
@@ -59,6 +60,7 @@ export const StyledAnchorLink = styled.a`
 	cursor: pointer;
 	color: rgb(242, 242, 242);
 	font-weight: 800;
+	min-height: 48px;
 	@media (max-width: 700px) {
 		font-size: 1rem;
 		padding: 0.5rem;

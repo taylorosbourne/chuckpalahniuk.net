@@ -97,7 +97,7 @@ export default function BookCard({ activeTab }: Props) {
 											target="_blank"
 											rel="noopener noreferrer"
 										>
-											<Button style={{ background: `rgb(28,30,36)` }}>
+											<Button style={{ background: `rgb(28,30,36)`, minHeight: `48px` }}>
 												<Amazon
 													style={{ fill: `rgb(105,128,221)`, margin: `0 5px` }}
 												/>
@@ -111,7 +111,7 @@ export default function BookCard({ activeTab }: Props) {
 											target="_blank"
 											rel="noopener noreferrer"
 										>
-											<Button style={{ background: `rgb(28,30,36)` }}>
+											<Button style={{ background: `rgb(28,30,36)`, minHeight: `48px` }}>
 												<img
 													src={darkhorse}
 													alt="darkhorse"
@@ -131,7 +131,7 @@ export default function BookCard({ activeTab }: Props) {
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										<Button style={{ background: `rgb(28,30,36)` }}>
+										<Button style={{ background: `rgb(28,30,36)`, minHeight: `48px` }}>
 											<Goodreads
 												style={{
 													fill: `rgb(105,128,221)`,
