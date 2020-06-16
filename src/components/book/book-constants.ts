@@ -1,36 +1,36 @@
 import { Book } from './book-types';
-import fightClub from '../../assets/books/fightclub.jpeg';
-import survivor from '../../assets/books/survivor.jpeg';
-import invisibleMonsters from '../../assets/books/invisiblemonsters.jpeg';
-import choke from '../../assets/books/choke.png';
-import lullaby from '../../assets/books/lullaby.jpeg';
-import diary from '../../assets/books/diary.jpeg';
-import haunted from '../../assets/books/haunted.jpeg';
-import guts from '../../assets/books/guts.jpeg';
-import rant from '../../assets/books/rant.jpeg';
-import misterelegant from '../../assets/books/misterelegant.jpg';
-import snuff from '../../assets/books/snuff.jpeg';
-import pygmy from '../../assets/books/pygmy.jpeg';
-import tellAll from '../../assets/books/tellall.jpeg';
-import knock from '../../assets/books/knock.jpg';
-import damned from '../../assets/books/damned.jpeg';
-import romance from '../../assets/books/romance.png';
-import imremix from '../../assets/books/imremix.jpeg';
-import doomed from '../../assets/books/doomed.jpeg';
-import burntTongues from '../../assets/books/burnttongues.jpeg';
-import beautfulYou from '../../assets/books/beautifulyou.jpeg';
-import makeSomethingUp from '../../assets/books/makesomethingup.jpeg';
-import phoenix from '../../assets/books/phoenix.jpg';
-import zombie from '../../assets/books/zombie.jpg';
-import cannibal from '../../assets/books/cannibal.jpg';
-import bait from '../../assets/books/bait.jpeg';
-import legacy from '../../assets/books/legacy.png';
-import adjustmentDay from '../../assets/books/adjustmentday.jpeg';
-import fugitives from '../../assets/books/fugitives.jpeg';
-import strangerThanFiction from '../../assets/books/strangerthanfiction.jpeg';
-import considerThis from '../../assets/books/considerthis.png';
-import fightClubTwo from '../../assets/books/fightclub2.jpg';
-import fightClubThree from '../../assets/books/fightclub3.jpg';
+import fightClub from '../../assets/books/fightclub.webp';
+import survivor from '../../assets/books/survivor.webp';
+import invisibleMonsters from '../../assets/books/invisiblemonsters.webp';
+import choke from '../../assets/books/choke.webp';
+import lullaby from '../../assets/books/lullaby.webp';
+import diary from '../../assets/books/diary.webp';
+import haunted from '../../assets/books/haunted.webp';
+import guts from '../../assets/books/guts.webp';
+import rant from '../../assets/books/rant.webp';
+import misterelegant from '../../assets/books/misterelegant.webp';
+import snuff from '../../assets/books/snuff.webp';
+import pygmy from '../../assets/books/pygmy.webp';
+import tellAll from '../../assets/books/tellall.webp';
+import knock from '../../assets/books/knock.webp';
+import damned from '../../assets/books/damned.webp';
+import romance from '../../assets/books/romance.webp';
+import imremix from '../../assets/books/imremix.webp';
+import doomed from '../../assets/books/doomed.webp';
+import burntTongues from '../../assets/books/burnttongues.webp';
+import beautfulYou from '../../assets/books/beautifulyou.webp';
+import makeSomethingUp from '../../assets/books/makesomethingup.webp';
+import phoenix from '../../assets/books/phoenix.webp';
+import zombie from '../../assets/books/zombie.webp';
+import cannibal from '../../assets/books/cannibal.webp';
+import bait from '../../assets/books/bait.webp';
+import legacy from '../../assets/books/legacy.webp';
+import adjustmentDay from '../../assets/books/adjustmentday.webp';
+import fugitives from '../../assets/books/fugitives.webp';
+import strangerThanFiction from '../../assets/books/strangerthanfiction.webp';
+import considerThis from '../../assets/books/considerthis.webp';
+import fightClubTwo from '../../assets/books/fightclub2.webp';
+import fightClubThree from '../../assets/books/fightclub3.webp';
 
 export const bookArr: Book[] = [
 	{
@@ -240,7 +240,7 @@ export const bookArr: Book[] = [
 		amazonLink: null,
 		goodreadsLink: `https://www.goodreads.com/book/show/17856443-cannibal`,
 		darkHorseLink: null,
-		description: `His talent made him popular with a certain kind of girl.  "We'll take drug addiction and we'll take JPEGs of the world instead of the world, MP3s instead of music, and we'll trade real life for sitting at a keyboard. We'll spot you happiness and we'll spot you humanity, and we'll sacrifice mercy just so long as you keep Cannibal at bay."`,
+		description: `His talent made him popular with a certain kind of girl.  "We'll take drug addiction and we'll take webps of the world instead of the world, MP3s instead of music, and we'll trade real life for sitting at a keyboard. We'll spot you happiness and we'll spot you humanity, and we'll sacrifice mercy just so long as you keep Cannibal at bay."`,
 		category: 'short fiction',
 	},
 	{

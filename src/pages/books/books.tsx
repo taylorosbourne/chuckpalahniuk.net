@@ -11,7 +11,7 @@ import {
 } from './books-styles';
 import { ReactComponent as Amazon } from '../../assets/icons/amazon.svg';
 import { ReactComponent as Goodreads } from '../../assets/icons/goodreads.svg';
-import inventionOfSound from '../../assets/books/inventionofsound.jpeg';
+import inventionOfSound from '../../assets/books/inventionofsound.webp';
 
 export default function Books() {
 	const [activeTab, setActiveTab] = useState('view all');
