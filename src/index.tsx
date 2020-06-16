@@ -4,32 +4,32 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ScrollToTop from 'react-router-scroll-top';
 import * as serviceWorker from './serviceWorker';
 
-import './App.css'
+import './App.css';
 import { Layout } from './containers';
 import { Home, About, Books, NotFound } from './pages';
 
 function App() {
-  return (
-    <Router>
-      <ScrollToTop>
-        <Layout>
-          <Switch>
-            <Route exact path='/' component={Home} />
-            <Route path='/chuck' component={About} />
-            <Route path='/books' component={Books} />
-            <Route path='/*' component={NotFound} />
-          </Switch>
-        </Layout>
-      </ScrollToTop>
-    </Router>
-  );
-};
+	return (
+		<Router>
+			<ScrollToTop>
+				<Layout>
+					<Switch>
+						<Route exact path="/" component={Home} />
+						<Route path="/chuck" component={About} />
+						<Route path="/books" component={Books} />
+						<Route path="/*" component={NotFound} />
+					</Switch>
+				</Layout>
+			</ScrollToTop>
+		</Router>
+	);
+}
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+	<React.StrictMode>
+		<App />
+	</React.StrictMode>,
+	document.getElementById('root')
 );
 
 serviceWorker.unregister();
