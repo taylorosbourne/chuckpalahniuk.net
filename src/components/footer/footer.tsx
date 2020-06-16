@@ -6,6 +6,7 @@ import { ReactComponent as Instagram } from '../../assets/icons/instagram.svg';
 import { ReactComponent as Amazon } from '../../assets/icons/amazon.svg';
 import { ReactComponent as Goodreads } from '../../assets/icons/goodreads.svg';
 import darkhorse from '../../assets/icons/darkhorse.webp';
+import darkhorsePng from '../../assets/icons/darkhorse.png';
 import {
 	StyledFooter,
 	LinkTitle,
@@ -76,11 +77,15 @@ export default function Footer() {
 							rel="noopener noreferrer"
 							aria-label="img"
 						>
-							<img
-								src={darkhorse}
-								alt="darkhorse"
-								style={{ maxHeight: `24px`, padding: 0, margin: 0 }}
-							/>
+							<picture>
+								<source srcSet={darkhorse} type="image/webp" />
+								<source srcSet={darkhorsePng} type="image/png" />
+								<img
+									src={darkhorse}
+									alt="darkhorse"
+									style={{ maxHeight: `24px`, padding: 0, margin: 0 }}
+								/>
+							</picture>
 						</a>
 					</ListLink>
 				</ul>
