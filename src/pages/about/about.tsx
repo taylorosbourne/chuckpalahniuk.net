@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet';
 
 import lookingUp from '../../assets/portraits/lookingup.jpeg';
 import tattooBanner from '../../assets/portraits/tattoobanner.jpeg';
@@ -18,8 +18,11 @@ export default function About() {
 		<>
 			<Helmet>
 				<title>About - Chuck Palahniuk</title>
-				<meta name="description" content="Born February 21, 1962, Charles Michael Palahniuk spent his early childhood living out of a mobile home in Burbank, Washington. His parents, Carol and Fred Palahniuk, separated and divorced when he was fourteen, leaving Chuck and his siblings to spend much of their time on their maternal grandparent’s cattle ranch." />
-  		</Helmet>
+				<meta
+					name="description"
+					content="Born February 21, 1962, Charles Michael Palahniuk spent his early childhood living out of a mobile home in Burbank, Washington. His parents, Carol and Fred Palahniuk, separated and divorced when he was fourteen, leaving Chuck and his siblings to spend much of their time on their maternal grandparent’s cattle ranch."
+				/>
+			</Helmet>
 			<Section top={true} bottom={false} imgBreak={false}>
 				<BioContainer>
 					<div>
