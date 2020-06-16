@@ -1,42 +1,75 @@
 import { Book } from './book-types';
 import fightClub from '../../assets/books/fightclub.webp';
+import fightClubPng from '../../assets/books/fightclub.png';
 import survivor from '../../assets/books/survivor.webp';
+import survivorPng from '../../assets/books/survivor.png';
 import invisibleMonsters from '../../assets/books/invisiblemonsters.webp';
+import invisibleMonstersPng from '../../assets/books/invisiblemonsters.png';
 import choke from '../../assets/books/choke.webp';
+import chokePng from '../../assets/books/choke.png';
 import lullaby from '../../assets/books/lullaby.webp';
+import lullabyPng from '../../assets/books/lullaby.png';
 import diary from '../../assets/books/diary.webp';
+import diaryPng from '../../assets/books/diary.png';
 import haunted from '../../assets/books/haunted.webp';
+import hauntedPng from '../../assets/books/haunted.png';
 import guts from '../../assets/books/guts.webp';
+import gutsPng from '../../assets/books/guts.png';
 import rant from '../../assets/books/rant.webp';
+import rantPng from '../../assets/books/rant.png';
 import misterelegant from '../../assets/books/misterelegant.webp';
+import misterelegantPng from '../../assets/books/misterelegant.png';
 import snuff from '../../assets/books/snuff.webp';
+import snuffPng from '../../assets/books/snuff.png';
 import pygmy from '../../assets/books/pygmy.webp';
+import pygmyPng from '../../assets/books/pygmy.png';
 import tellAll from '../../assets/books/tellall.webp';
+import tellAllPng from '../../assets/books/tellall.png';
 import knock from '../../assets/books/knock.webp';
+import knockPng from '../../assets/books/knock.png';
 import damned from '../../assets/books/damned.webp';
+import damnedPng from '../../assets/books/damned.png';
 import romance from '../../assets/books/romance.webp';
+import romancePng from '../../assets/books/romance.png';
 import imremix from '../../assets/books/imremix.webp';
+import imremixPng from '../../assets/books/imremix.png';
 import doomed from '../../assets/books/doomed.webp';
+import doomedPng from '../../assets/books/doomed.png';
 import burntTongues from '../../assets/books/burnttongues.webp';
+import burntTonguesPng from '../../assets/books/burnttongues.png';
 import beautfulYou from '../../assets/books/beautifulyou.webp';
+import beautfulYouPng from '../../assets/books/beautifulyou.png';
 import makeSomethingUp from '../../assets/books/makesomethingup.webp';
+import makeSomethingUpPng from '../../assets/books/makesomethingup.png';
 import phoenix from '../../assets/books/phoenix.webp';
+import phoenixPng from '../../assets/books/phoenix.png';
 import zombie from '../../assets/books/zombie.webp';
+import zombiePng from '../../assets/books/zombie.png';
 import cannibal from '../../assets/books/cannibal.webp';
+import cannibalPng from '../../assets/books/cannibal.png';
 import bait from '../../assets/books/bait.webp';
+import baitPng from '../../assets/books/bait.png';
 import legacy from '../../assets/books/legacy.webp';
+import legacyPng from '../../assets/books/legacy.png';
 import adjustmentDay from '../../assets/books/adjustmentday.webp';
+import adjustmentDayPng from '../../assets/books/adjustmentday.png';
 import fugitives from '../../assets/books/fugitives.webp';
+import fugitivesPng from '../../assets/books/fugitives.png';
 import strangerThanFiction from '../../assets/books/strangerthanfiction.webp';
+import strangerThanFictionPng from '../../assets/books/strangerthanfiction.png';
 import considerThis from '../../assets/books/considerthis.webp';
+import considerThisPng from '../../assets/books/considerthis.png';
 import fightClubTwo from '../../assets/books/fightclub2.webp';
+import fightClubTwoPng from '../../assets/books/fightclub2.png';
 import fightClubThree from '../../assets/books/fightclub3.webp';
+import fightClubThreePng from '../../assets/books/fightclub3.png';
 
 export const bookArr: Book[] = [
 	{
 		title: `Fight Club`,
 		released: 1996,
-		img: fightClub,
+		imgWebp: fightClub,
+		imgPng: fightClubPng,
 		amazonLink: `https://www.amazon.com/gp/product/B000U0O9FM/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i0`,
 		goodreadsLink: `https://www.goodreads.com/book/show/36236124-fight-club`,
 		darkHorseLink: null,
@@ -46,7 +79,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Survivor`,
 		released: 1999,
-		img: survivor,
+		imgWebp: survivor,
+		imgPng: survivorPng,
 		amazonLink: `https://www.amazon.com/gp/product/B004SOBLIE/ref=dbs_a_def_rwt_bibl_vppi_i6`,
 		goodreadsLink: `https://www.goodreads.com/book/show/36236123-survivor`,
 		darkHorseLink: null,
@@ -56,7 +90,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Invisible Monsters`,
 		released: 1999,
-		img: invisibleMonsters,
+		imgWebp: invisibleMonsters,
+		imgPng: invisibleMonstersPng,
 		amazonLink: `https://www.amazon.com/gp/product/B004SO5SD8/ref=dbs_a_def_rwt_bibl_vppi_i2`,
 		goodreadsLink: `https://www.goodreads.com/book/show/36236123-survivor`,
 		darkHorseLink: null,
@@ -66,7 +101,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Choke`,
 		released: 2001,
-		img: choke,
+		imgWebp: choke,
+		imgPng: chokePng,
 		amazonLink: `https://www.amazon.com/gp/product/B000QCS9NM/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i4`,
 		goodreadsLink: `https://www.goodreads.com/book/show/29059.Choke`,
 		darkHorseLink: null,
@@ -76,7 +112,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Lullaby`,
 		released: 2002,
-		img: lullaby,
+		imgWebp: lullaby,
+		imgPng: lullabyPng,
 		amazonLink: `https://www.amazon.com/gp/product/B0013KAJR0/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i10`,
 		goodreadsLink: `https://www.goodreads.com/book/show/22206.Lullaby`,
 		darkHorseLink: null,
@@ -86,7 +123,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Diary`,
 		released: 2003,
-		img: diary,
+		imgWebp: diary,
+		imgPng: diaryPng,
 		amazonLink: `https://www.amazon.com/gp/product/B000FCK4TA/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i11`,
 		goodreadsLink: `https://www.goodreads.com/book/show/22284.Diary`,
 		darkHorseLink: null,
@@ -96,7 +134,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Haunted`,
 		released: 2005,
-		img: haunted,
+		imgWebp: haunted,
+		imgPng: hauntedPng,
 		amazonLink: `https://www.amazon.com/gp/product/B000FCK40O/ref=dbs_a_def_rwt_bibl_vppi_i3`,
 		goodreadsLink: `https://www.goodreads.com/book/show/22288.Haunted`,
 		darkHorseLink: null,
@@ -106,7 +145,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Guts [Appears in Haunted]`,
 		released: 2005,
-		img: guts,
+		imgWebp: guts,
+		imgPng: gutsPng,
 		amazonLink: `https://www.amazon.com/gp/product/B000FCK40O/ref=dbs_a_def_rwt_bibl_vppi_i3`,
 		goodreadsLink: `https://www.goodreads.com/book/show/6395833-guts`,
 		darkHorseLink: null,
@@ -116,7 +156,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Rant`,
 		released: 2007,
-		img: rant,
+		imgWebp: rant,
+		imgPng: rantPng,
 		amazonLink: `https://www.amazon.com/gp/product/B00199B2YO/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i8`,
 		goodreadsLink: `https://www.goodreads.com/book/show/22285.Rant`,
 		darkHorseLink: null,
@@ -126,7 +167,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Mister Elegant [in VICE]`,
 		released: 2007,
-		img: misterelegant,
+		imgWebp: misterelegant,
+		imgPng: misterelegantPng,
 		amazonLink: null,
 		goodreadsLink: `https://www.goodreads.com/book/show/15783331-mister-elegant`,
 		darkHorseLink: null,
@@ -136,7 +178,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Snuff`,
 		released: 2008,
-		img: snuff,
+		imgWebp: snuff,
+		imgPng: snuffPng,
 		amazonLink: `https://www.amazon.com/gp/product/B0010SEMGY/ref=dbs_a_def_rwt_bibl_vppi_i15`,
 		goodreadsLink: `https://www.goodreads.com/book/show/1840511.Snuff`,
 		darkHorseLink: null,
@@ -146,7 +189,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Pygmy`,
 		released: 2009,
-		img: pygmy,
+		imgWebp: pygmy,
+		imgPng: pygmyPng,
 		amazonLink: `https://www.amazon.com/gp/product/B001NLL9IW/ref=dbs_a_def_rwt_bibl_vppi_i12`,
 		goodreadsLink: `https://www.goodreads.com/book/show/4601396-pygmy`,
 		darkHorseLink: null,
@@ -156,7 +200,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Tell-All`,
 		released: 2010,
-		img: tellAll,
+		imgWebp: tellAll,
+		imgPng: tellAllPng,
 		amazonLink: `https://www.amazon.com/gp/product/B0036S4CRK/ref=dbs_a_def_rwt_bibl_vppi_i20`,
 		goodreadsLink: `https://www.goodreads.com/book/show/6855294-tell-all`,
 		darkHorseLink: null,
@@ -166,7 +211,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Knock Knock [in Playboy]`,
 		released: 2010,
-		img: knock,
+		imgWebp: knock,
+		imgPng: knockPng,
 		amazonLink: null,
 		goodreadsLink: `https://www.goodreads.com/book/show/18777492-knock-knock`,
 		darkHorseLink: null,
@@ -176,7 +222,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Damned`,
 		released: 2011,
-		img: damned,
+		imgWebp: damned,
+		imgPng: damnedPng,
 		amazonLink: `https://www.amazon.com/gp/product/B004KPM1LM/ref=dbs_a_def_rwt_bibl_vppi_i9`,
 		goodreadsLink: `https://www.goodreads.com/book/show/9912994-damned`,
 		darkHorseLink: null,
@@ -186,7 +233,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Romance [in Playboy]`,
 		released: 2011,
-		img: romance,
+		imgWebp: romance,
+		imgPng: romancePng,
 		amazonLink: null,
 		goodreadsLink: `https://www.goodreads.com/book/show/15758720-romance`,
 		darkHorseLink: null,
@@ -196,7 +244,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Invisible Monsters Remix`,
 		released: 2012,
-		img: imremix,
+		imgWebp: imremix,
+		imgPng: imremixPng,
 		amazonLink: `https://www.amazon.com/gp/product/B007HXF5GM/ref=dbs_a_def_rwt_hsch_vapi_tkin_p2_i9`,
 		goodreadsLink: `https://www.goodreads.com/book/show/12813565-invisible-monsters-remix?from_search=true&from_srp=true&qid=GrLzjd85ou&rank=1`,
 		darkHorseLink: null,
@@ -206,7 +255,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Doomed`,
 		released: 2013,
-		img: doomed,
+		imgWebp: doomed,
+		imgPng: doomedPng,
 		amazonLink: `https://www.amazon.com/gp/product/B00CCPIJ6I/ref=dbs_a_def_rwt_bibl_vppi_i19`,
 		goodreadsLink: `https://www.goodreads.com/book/show/17262208-doomed`,
 		darkHorseLink: null,
@@ -216,7 +266,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Phoenix [Kindle Exclusive]`,
 		released: 2013,
-		img: phoenix,
+		imgWebp: phoenix,
+		imgPng: phoenixPng,
 		amazonLink: null,
 		goodreadsLink: `https://www.goodreads.com/book/show/17380711-phoenix`,
 		darkHorseLink: null,
@@ -226,7 +277,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Zombie [in Playboy]`,
 		released: 2013,
-		img: zombie,
+		imgWebp: zombie,
+		imgPng: zombiePng,
 		amazonLink: null,
 		goodreadsLink: `https://www.goodreads.com/book/show/18853743-zombie`,
 		darkHorseLink: null,
@@ -236,7 +288,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Cannibal [in Playboy]`,
 		released: 2013,
-		img: cannibal,
+		imgWebp: cannibal,
+		imgPng: cannibalPng,
 		amazonLink: null,
 		goodreadsLink: `https://www.goodreads.com/book/show/17856443-cannibal`,
 		darkHorseLink: null,
@@ -246,7 +299,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Burnt Tongues [Editor]`,
 		released: 2014,
-		img: burntTongues,
+		imgWebp: burntTongues,
+		imgPng: burntTonguesPng,
 		amazonLink: `https://www.amazon.com/gp/product/1605427349/ref=dbs_a_def_rwt_bibl_vppi_i64`,
 		goodreadsLink: `https://www.goodreads.com/book/show/20344952-burnt-tongues`,
 		darkHorseLink: null,
@@ -256,7 +310,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Beautiful You`,
 		released: 2014,
-		img: beautfulYou,
+		imgWebp: beautfulYou,
+		imgPng: beautfulYouPng,
 		amazonLink: `https://www.amazon.com/gp/product/B00JYWUHDA/ref=dbs_a_def_rwt_bibl_vppi_i16`,
 		goodreadsLink: `https://www.goodreads.com/book/show/19523454-beautiful-you`,
 		darkHorseLink: null,
@@ -266,7 +321,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Make Something Up`,
 		released: 2015,
-		img: makeSomethingUp,
+		imgWebp: makeSomethingUp,
+		imgPng: makeSomethingUpPng,
 		amazonLink: `https://www.amazon.com/gp/product/1101971967/ref=dbs_a_def_rwt_bibl_vppi_i85`,
 		goodreadsLink: `https://www.goodreads.com/book/show/22822857-make-something-up`,
 		darkHorseLink: null,
@@ -276,7 +332,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Bait`,
 		released: 2016,
-		img: bait,
+		imgWebp: bait,
+		imgPng: baitPng,
 		amazonLink: `https://www.amazon.com/gp/product/1506703119/ref=dbs_a_def_rwt_bibl_vppi_i54`,
 		goodreadsLink: `https://www.goodreads.com/book/show/30641072-bait`,
 		darkHorseLink: null,
@@ -286,7 +343,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Legacy`,
 		released: 2017,
-		img: legacy,
+		imgWebp: legacy,
+		imgPng: legacyPng,
 		amazonLink: `https://www.amazon.com/gp/product/1506706150/ref=dbs_a_def_rwt_bibl_vppi_i55`,
 		goodreadsLink: `https://www.goodreads.com/book/show/35517083-legacy`,
 		darkHorseLink: null,
@@ -296,7 +354,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Adjustment Day`,
 		released: 2019,
-		img: adjustmentDay,
+		imgWebp: adjustmentDay,
+		imgPng: adjustmentDayPng,
 		amazonLink: `https://www.amazon.com/gp/product/B0777T1T89/ref=dbs_a_def_rwt_bibl_vppi_i5`,
 		goodreadsLink: `https://www.goodreads.com/book/show/36349731-adjustment-day?from_search=true&from_srp=true&qid=yIx25IATWP&rank=1`,
 		darkHorseLink: null,
@@ -306,7 +365,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Fugitive and Refugees`,
 		released: 2003,
-		img: fugitives,
+		imgWebp: fugitives,
+		imgPng: fugitivesPng,
 		amazonLink: `https://www.amazon.com/gp/product/B000XUBE8O/ref=dbs_a_def_rwt_bibl_vppi_i22`,
 		goodreadsLink: `https://www.goodreads.com/book/show/22289.Fugitives_and_Refugees`,
 		darkHorseLink: null,
@@ -316,7 +376,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Stranger than Fiction`,
 		released: 2004,
-		img: strangerThanFiction,
+		imgWebp: strangerThanFiction,
+		imgPng: strangerThanFictionPng,
 		amazonLink: `https://www.amazon.com/gp/product/B000FCK4T0/ref=dbs_a_def_rwt_bibl_vppi_i18`,
 		goodreadsLink: `https://www.goodreads.com/book/show/3717.Stranger_than_Fiction?ac=1&from_search=true&qid=zmx0owQKQH&rank=1`,
 		darkHorseLink: null,
@@ -326,7 +387,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Consider This`,
 		released: 2020,
-		img: considerThis,
+		imgWebp: considerThis,
+		imgPng: considerThisPng,
 		amazonLink: `https://www.amazon.com/gp/product/B07SHSG173/ref=dbs_a_def_rwt_bibl_vppi_i1`,
 		goodreadsLink: `https://www.goodreads.com/book/show/46210749-consider-this`,
 		darkHorseLink: null,
@@ -336,7 +398,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Fight Club 2`,
 		released: 2015,
-		img: fightClubTwo,
+		imgWebp: fightClubTwo,
+		imgPng: fightClubTwoPng,
 		amazonLink: `https://www.amazon.com/gp/product/B01668BX8W/ref=dbs_a_def_rwt_bibl_vppi_i24`,
 		goodreadsLink: `https://www.goodreads.com/book/show/51807884-fight-club-3`,
 		darkHorseLink: `https://www.darkhorse.com/Books/27-009/Fight-Club-2-HC`,
@@ -346,7 +409,8 @@ export const bookArr: Book[] = [
 	{
 		title: `Fight Club 3`,
 		released: 2019,
-		img: fightClubThree,
+		imgWebp: fightClubThree,
+		imgPng: fightClubThreePng,
 		amazonLink: `https://www.amazon.com/gp/product/B07VF1TTK5/ref=dbs_a_def_rwt_bibl_vppi_i14`,
 		goodreadsLink: `https://www.goodreads.com/book/show/25614994-fight-club-2`,
 		darkHorseLink: `https://www.darkhorse.com/Books/3003-734/Fight-Club-3-HC`,

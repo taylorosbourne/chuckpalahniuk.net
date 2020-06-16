@@ -33,7 +33,8 @@ export default function BookCard({ activeTab }: Props) {
 					const {
 						title,
 						released,
-						img,
+						imgWebp,
+						imgPng,
 						amazonLink,
 						goodreadsLink,
 						darkHorseLink,
@@ -44,15 +45,19 @@ export default function BookCard({ activeTab }: Props) {
 
 					return (
 						<Card key={i}>
-							<img
-								style={{
-									minHeight: `310px`,
-									maxWidth: `200px`,
-									borderRadius: `5px`,
-								}}
-								src={img}
-								alt={title + '-image'}
-							/>
+							<picture>
+								<source srcSet={imgWebp} type="image/webp" />
+								<source srcSet={imgPng} type="image/png" />
+								<img
+									style={{
+										minHeight: `310px`,
+										maxWidth: `200px`,
+										borderRadius: `5px`,
+									}}
+									src={imgWebp}
+									alt={title + '-image'}
+								/>
+							</picture>
 							<div style={{ marginLeft: `15px` }}>
 								<h3
 									style={{

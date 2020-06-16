@@ -5,7 +5,8 @@ export interface Props {
 export interface Book {
 	title: string;
 	released: number;
-	img: string;
+	imgWebp: string;
+	imgPng: string;
 	amazonLink: string | null;
 	goodreadsLink: string;
 	darkHorseLink: string | null;
