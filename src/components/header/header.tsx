@@ -56,18 +56,12 @@ export default function Header() {
 						</StyledLink>
 					</li>
 					<li style={{ listStyle: `none` }}>
-						<StyledLink
-							to="/books"
-							current={location.pathname === '/books'}
-						>
+						<StyledLink to="/books" current={location.pathname === '/books'}>
 							Books
 						</StyledLink>
 					</li>
 					<li style={{ listStyle: `none` }}>
-						<StyledLink
-							to="/chuck"
-							current={location.pathname === '/chuck'}
-						>
+						<StyledLink to="/chuck" current={location.pathname === '/chuck'}>
 							Chuck
 						</StyledLink>
 					</li>
