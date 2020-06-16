@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet'
 
 import bannerPortrait from '../../assets/portraits/bannerportrait.jpeg';
 import tattoo from '../../assets/portraits/tattoo.jpg';
@@ -16,6 +17,10 @@ import { Link } from 'react-router-dom';
 export default function Home() {
 	return (
 		<>
+			<Helmet>
+				<title>Home - Chuck Palahniuk</title>
+				<meta name="description" content="Chuck's books include fifteen original novels, as well four works of non-fiction, and over a dozen short fiction pieces." />
+  		</Helmet>
 			<HeadImageContainer>
 				<div
 					style={{

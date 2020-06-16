@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet'
 
 import { BookCard } from '../../components';
 import {
@@ -16,6 +17,10 @@ export default function Books() {
 	const [activeTab, setActiveTab] = useState('view all');
 	return (
 		<>
+			<Helmet>
+				<title>Books - Chuck Palahniuk</title>
+				<meta name="description" content="Chuck's books include fifteen original novels, as well four works of non-fiction, and over a dozen short fiction pieces." />
+  		</Helmet>
 			<section
 				style={{
 					margin: `0 auto`,
