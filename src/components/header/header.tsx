@@ -50,22 +50,28 @@ export default function Header() {
 					</h1>
 				</Link>
 				<Nav>
-					<li style={{listStyle: `none`}}>
+					<li style={{ listStyle: `none` }}>
 						<StyledLink to="/" currentpage={location.pathname === '/'}>
 							Home
 						</StyledLink>
 					</li>
-					<li style={{listStyle: `none`}}>
-						<StyledLink to="/books" currentpage={location.pathname === '/books'}>
+					<li style={{ listStyle: `none` }}>
+						<StyledLink
+							to="/books"
+							currentpage={location.pathname === '/books'}
+						>
 							Books
 						</StyledLink>
 					</li>
-					<li style={{listStyle: `none`}}>
-						<StyledLink to="/chuck" currentpage={location.pathname === '/chuck'}>
+					<li style={{ listStyle: `none` }}>
+						<StyledLink
+							to="/chuck"
+							currentpage={location.pathname === '/chuck'}
+						>
 							Chuck
 						</StyledLink>
 					</li>
-					<li style={{listStyle: `none`}}>
+					<li style={{ listStyle: `none` }}>
 						<StyledAnchorLink
 							href="https://chuckpalahniuk.threadless.com/"
 							target="_blank"
