@@ -51,14 +51,14 @@ export default function Header() {
 				</Link>
 				<Nav>
 					<li style={{ listStyle: `none` }}>
-						<StyledLink to="/" currentpage={location.pathname === '/'}>
+						<StyledLink to="/" current={location.pathname === '/'}>
 							Home
 						</StyledLink>
 					</li>
 					<li style={{ listStyle: `none` }}>
 						<StyledLink
 							to="/books"
-							currentpage={location.pathname === '/books'}
+							current={location.pathname === '/books'}
 						>
 							Books
 						</StyledLink>
@@ -66,7 +66,7 @@ export default function Header() {
 					<li style={{ listStyle: `none` }}>
 						<StyledLink
 							to="/chuck"
-							currentpage={location.pathname === '/chuck'}
+							current={location.pathname === '/chuck'}
 						>
 							Chuck
 						</StyledLink>

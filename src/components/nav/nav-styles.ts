@@ -13,7 +13,7 @@ export const Navbar = styled.nav`
 	}
 `;
 
-export const StyledLink = styled(Link)<{ currentpage: boolean }>`
+export const StyledLink = styled(Link)<{ current: boolean }>`
 	border-radius: 5px;
 	margin-left: 15px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -37,7 +37,7 @@ export const StyledLink = styled(Link)<{ currentpage: boolean }>`
 		color: rgb(105, 128, 221);
 	}
 	${(props) =>
-		props.currentpage &&
+		props.current &&
 		css`
 			background: rgb(39, 42, 50);
 			color: rgb(105, 128, 221);

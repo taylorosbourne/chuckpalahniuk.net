@@ -46,6 +46,7 @@ export const Card = styled.div<{ imgUrl: string }>`
 	justify-content: center;
 	align-items: center;
 	position: relative;
+	background-color: rgb(28, 30, 36);
 	background-image: ${(props) => `url('${props.imgUrl}')`};
 	background-size: cover;
 	background-position: center;
