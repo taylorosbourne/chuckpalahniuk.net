@@ -1,10 +1,10 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-import bannerPortrait from '../../assets/portraits/bannerportrait.jpeg';
-import tattoo from '../../assets/portraits/tattoo.jpg';
-import books from '../../assets/books.jpeg';
-import shirt from '../../assets/shirt.png';
+import bannerPortrait from '../../assets/portraits/bannerportrait.webp';
+import tattoo from '../../assets/portraits/tattoo.webp';
+import books from '../../assets/books.webp';
+import shirt from '../../assets/shirt.webp';
 import {
 	HeadImageContainer,
 	CardContainer,

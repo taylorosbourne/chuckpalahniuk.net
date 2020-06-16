@@ -5,7 +5,7 @@ import { ReactComponent as Facebook } from '../../assets/icons/facebook.svg';
 import { ReactComponent as Instagram } from '../../assets/icons/instagram.svg';
 import { ReactComponent as Amazon } from '../../assets/icons/amazon.svg';
 import { ReactComponent as Goodreads } from '../../assets/icons/goodreads.svg';
-import darkhorse from '../../assets/icons/darkhorse.png';
+import darkhorse from '../../assets/icons/darkhorse.webp';
 import {
 	StyledFooter,
 	LinkTitle,

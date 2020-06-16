@@ -5,7 +5,7 @@ import { bookArr } from './book-constants';
 import { Button, Card } from './book-styles';
 import { ReactComponent as Amazon } from '../../assets/icons/amazon.svg';
 import { ReactComponent as Goodreads } from '../../assets/icons/goodreads.svg';
-import darkhorse from '../../assets/icons/darkhorse.png';
+import darkhorse from '../../assets/icons/darkhorse.webp';
 
 export default function BookCard({ activeTab }: Props) {
 	let books;

@@ -1,9 +1,9 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-import lookingUp from '../../assets/portraits/lookingup.jpeg';
-import tattooBanner from '../../assets/portraits/tattoobanner.jpeg';
-import beanieBanner from '../../assets/portraits/beanieBanner.jpeg';
+import lookingUp from '../../assets/portraits/lookingup.webp';
+import tattooBanner from '../../assets/portraits/tattoobanner.webp';
+import beanieBanner from '../../assets/portraits/beanieBanner.webp';
 import reading from '../../assets/portraits/reading.webp';
 import {
 	Section,
