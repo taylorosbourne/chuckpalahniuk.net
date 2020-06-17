@@ -24,7 +24,7 @@ export default function Footer() {
 				<ul>
 					<LinkTitle>Valuable Links</LinkTitle>
 					<ListLink>
-						<Link to="/terms-of-service">Contact Us</Link>
+						<Link to="/contact">Contact Us</Link>
 					</ListLink>
 					<ListLink>
 						<Link to="/terms-of-service">Terms of Service</Link>
