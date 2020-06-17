@@ -8,7 +8,7 @@ export const TermsContainer = styled.section`
 	background: rgb(28, 30, 36);
 	padding: 100px 22px 22px 22px;
 	font-size: 1.5rem;
-	@media(max-width: 1000px) {
+	@media (max-width: 1000px) {
 		width: 80%;
 	}
 `;
@@ -37,7 +37,7 @@ export const BannerHeader = styled.header`
 		border-left: 10px solid transparent;
 		left: 0;
 	}
-	@media(max-width: 1000px) {
+	@media (max-width: 1000px) {
 		width: 80%;
 	}
 `;

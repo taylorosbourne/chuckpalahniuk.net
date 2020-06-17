@@ -23,8 +23,12 @@ export default function Footer() {
 			<FlexContainer>
 				<ul>
 					<LinkTitle>Valuable Links</LinkTitle>
-					<ListLink><Link to='/terms-of-service'>Contact Us</Link></ListLink>
-					<ListLink><Link to='/terms-of-service'>Terms of Service</Link></ListLink>
+					<ListLink>
+						<Link to="/terms-of-service">Contact Us</Link>
+					</ListLink>
+					<ListLink>
+						<Link to="/terms-of-service">Terms of Service</Link>
+					</ListLink>
 					<ListLink>
 						<a
 							href="https://twitter.com/chuckpalahniuk"
