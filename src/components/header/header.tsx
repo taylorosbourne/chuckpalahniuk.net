@@ -60,7 +60,7 @@ export default function Header() {
 							Books
 						</StyledLink>
 					</li>
-					<li style={{ listStyle: `none` }}>
+					<li style={{ listStyle: `none` }} cy-data="about">
 						<StyledLink to="/chuck" current={location.pathname === '/chuck'}>
 							Chuck
 						</StyledLink>
