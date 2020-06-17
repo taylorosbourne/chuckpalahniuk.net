@@ -13,6 +13,7 @@ import {
 	ListLink,
 	FlexContainer,
 } from './footer-styles';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
 	const year = new Date().getFullYear();
@@ -22,8 +23,8 @@ export default function Footer() {
 			<FlexContainer>
 				<ul>
 					<LinkTitle>Valuable Links</LinkTitle>
-					<ListLink>Contact Us</ListLink>
-					<ListLink>Terms of Service</ListLink>
+					<ListLink><Link to='/terms-of-service'>Contact Us</Link></ListLink>
+					<ListLink><Link to='/terms-of-service'>Terms of Service</Link></ListLink>
 					<ListLink>
 						<a
 							href="https://twitter.com/chuckpalahniuk"
@@ -89,19 +90,6 @@ export default function Footer() {
 						</a>
 					</ListLink>
 				</ul>
-				{/* <ul>
-          <LinkTitle>Valuable Links</LinkTitle>
-          <ListLink>Contact Us</ListLink>
-          <ListLink>Terms of Service</ListLink>
-          <ListLink>
-            <Twitter style={{fill: `rgb(242,242,242)`}} />
-            <Facebook style={{fill: `rgb(242,242,242)`}} />
-            <Instagram style={{fill: `rgb(242,242,242)`}} />
-            <Amazon style={{fill: `rgb(242,242,242)`}} />
-            <Goodreads style={{fill: `rgb(242,242,242)`}} />
-            <Comic style={{fill: `rgb(242,242,242)`}} />
-          </ListLink>
-        </ul> */}
 				<ul style={{ fontWeight: 100, width: `50%` }}>
 					<LinkTitle>Important Disclaimer</LinkTitle>
 					<li

@@ -5,7 +5,7 @@ import ScrollToTop from 'react-router-scroll-top';
 
 import './App.css';
 import { Layout } from './containers';
-import { Home, About, Books, NotFound } from './pages';
+import { Home, About, Books, NotFound, Terms } from './pages';
 
 function App() {
 	return (
@@ -16,6 +16,7 @@ function App() {
 						<Route exact path="/" component={Home} />
 						<Route path="/chuck" component={About} />
 						<Route path="/books" component={Books} />
+						<Route path="/terms-of-service" component={Terms} />
 						<Route path="/*" component={NotFound} />
 					</Switch>
 				</Layout>

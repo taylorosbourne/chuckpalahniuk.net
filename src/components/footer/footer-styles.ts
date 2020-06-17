@@ -30,12 +30,18 @@ export const ListLink = styled.li`
 	color: #fff;
 	:hover {
 		color: rgb(105, 128, 221);
+		a {
+			color: rgb(105, 128, 221);
+		}
 	}
 	* {
 		margin: 0 2.5px;
 	}
 	a {
+		margin: 5px;
 		padding: 0;
+		color: #fff;
+		text-decoration: none;
 		img {
 			background: rgb(242, 242, 242);
 		}
